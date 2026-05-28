@@ -45,7 +45,11 @@ export function usePosts() {
     }
 
     useEffect(() => {
-        fetchPosts();
+        const loadPosts = async () => {
+            await fetchPosts();
+        };
+
+        loadPosts();
     }, []);
 
     async function handleSubmit(e: React.SyntheticEvent<HTMLFormElement>) {

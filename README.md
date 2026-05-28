@@ -28,6 +28,11 @@ Frontend часть приложения, выполненная в рамках
 - Компонентная архитектура
 - Кастомные React hooks
 
+### ENV
+
+NEXT_PUBLIC_API_URL=http://localhost:3000
+
+NEXT_PUBLIC_API_URL — адрес backend API на NestJS.
 
 
 # Установка
